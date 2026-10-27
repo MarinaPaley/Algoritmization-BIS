@@ -3,7 +3,7 @@
     /// <summary>
     /// Главная программа.
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Точка входа в программу.
@@ -14,8 +14,10 @@
             const double a = 2;
             const double b = 1;
             const double c = 3;
+
             double x = GetDouble("Введите x = ");
             double y = GetResult(a, b, c, x);
+
             Console.WriteLine($"x = {x}, y = {y}");
         }
 
